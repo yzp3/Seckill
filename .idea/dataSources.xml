@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="dataSource" uuid="89b9eef9-f7ff-4d34-87b9-b2b18c5398d8">
+      <imported>true</imported>
+      <remarks>c3p0
+
+D:/Project/java/seckill/src/main/resources/spring/spring-dao.xml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/seckill?serverTimezone=CTT&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="jdbc" uuid="731ad750-8c2a-4efe-bd9f-0c42f1fe80b3">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>jdbc.properties
+
+D:/Project/java/seckill/src/main/resources/jdbc.properties</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/seckill?serverTimezone=CTT&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
